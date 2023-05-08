@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d10db95298.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    <title>Contacto</title>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="rrss">
+            <ul class="ul_rrss">
+                <li class="li_rrss"><a href="#" target="_blank"><i class="fa-brands fa-facebook" style="color: #2555a7;"></i></a></li>
+                <li class="li_rrss"><a href="#" target="_blank"><i class="fa-brands fa-twitter" style="color: #2675fd;"></i></a></li>
+                <li class="li_rrss"><a href="#" target="_blank"><i class="fa-brands fa-linkedin" style="color: #224a91;"></i></a></li>
+                <li class="li_rrss"><a href="#" target="_blank"><i class="fa-brands fa-youtube" style="color: #f03124;"></i></a></li>
+            </ul>
+        </div>
+        <a class="a_logo_jelly" href="index.html"><img class="logo_jelly" src="assets/images/jelly_logo.png" alt="Logo Jelly"></a>
+        <div class="cuenta">
+            <ul class="ul_cuenta">
+                <li class="li_cuenta"><a href="#"><i class="fa-regular fa-circle-user"></i></a></li>
+                <li class="li_cuenta"><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                <li class="li_cuenta"><a href="#"><i class="fa-solid fa-shop"></i></a></li>
+            </ul>
+        </div>
+        <h1 class="h1">Jelly Tienda</h1>
+        <nav class="nav">
+            <ul class="ul_navegacion">
+                <li class="li_navegacion"><a class="a_navegacion" href="index.html">Inicio</a></li>
+                <li class="li_navegacion"><a class="a_navegacion" href="#">BTS</a></li>
+                <li class="li_navegacion"><a class="a_navegacion" href="#">Categorías</a></li>
+                <li class="li_navegacion"><a class="a_navegacion" href="#">Despachos</a></li>
+                <li class="li_navegacion"><a class="a_navegacion" href="#">Quiénes somos</a></li>
+                <li class="li_navegacion"><a class="a_navegacion" href="contacto.html">Contacto</a></li>
+                <li class="li_navegacion">
+                    <form class="form_busqueda" action="https://www.google.cl/" method="get">
+                        <input class="input_busqueda" type="text" required name="buscar" placeholder="¿Buscamos algo?">
+                        <button class="boton_buscar" type="submit" value="buscar">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="p_main">
+            <p class="p_main">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam quibusdam veritatis mollitia nisi iusto eum. Iste quam quo labore ullam quibusdam fugit animi assumenda? Deserunt aliquam sit reiciendis saepe aut!
+                Dolorum unde quod esse suscipit! Doloribus provident odio, alias ducimus amet deserunt adipisci voluptatem corrupti. Reiciendis ullam laudantium sapiente sequi neque error, a harum dolorum omnis non, velit eveniet sit.
+                Nulla possimus quasi recusandae in eligendi quo mollitia consequatur dignissimos laboriosam id, beatae, labore, nobis explicabo quia autem ducimus soluta cum voluptates similique nemo culpa. Totam consequuntur ab ratione ex.
+                Cupiditate ut odit in culpa incidunt, totam ducimus et voluptatum quas! Sed exercitationem ratione asperiores nulla? Nisi vel in aperiam blanditiis maxime magni quasi fugit cupiditate eveniet pariatur. Laborum, aut.
+                Quam corporis eos, ratione, ab vel dolor quisquam hic, officiis quos quae saepe corrupti beatae rerum nemo id eius ipsam aliquam? Fugit quo molestias cupiditate ipsam cumque. Neque, porro beatae?.</p>
+        </div>
+        <div class="formulario">
+            <div class="box_auxiliar_formulario">
+                <form action="https://www.google.cl/" name="contacto_form" method="get">
+                    <fieldset>
+                        <legend>Contacto</legend>
+                        <div>
+                            <label class="div_datos_label" for="nombre_">Nombre</label>
+                            <input class="div_datos_input" type="text" name="nombre_" id="nombre_" required placeholder="Ingrese sus nombres" autofocus>
+                        </div>
+                        <div>
+                            <label class="div_datos_label" for="apellido_">Apellido</label>
+                            <input class="div_datos_input" type="text" name="apellido_" id="apellido_" required placeholder="Ingrese sus apellidos">
+                        </div>
+                        <div>
+                            <label class="div_datos_label" for="edad_">Edad</label>
+                            <input class="div_datos_input" type="number" name="edad_" id="edad_" required placeholder="Ingrese su edad" min="18" max="120">
+                        </div>
+                        <div>
+                            <label class="div_datos_label" for="fecha_nacimiento_">Fecha de nacimiento</label>
+                            <input class="div_datos_input" type="date" name="fecha_nacimiento_" id="fecha_nacimiento_">
+                        </div>
+                        <div>
+                            <label class="div_datos_label" for="correo_">Correo electrónico</label>
+                            <input class="div_datos_input" type="email" name="correo_" id="correo_" placeholder="correo@mail.cl">
+                        </div>
+                        <div>
+                            <label class="div_datos_label" for="telefono_">Celular</label>
+                            <input class="div_datos_input" type="tel" id="telefono_" name="telefono_" placeholder="+56XXXXXXXXX" maxlength="12" minlength="12">
+                        </div>
+                        <div>
+                            <label class="div_datos_label" for="disponibilidad">Disponibilidad</label>
+                            <select class="div_datos_input" name="disponibilidad">
+                                <option value="20">20 horas</option>
+                                <option value="30">30 horas</option>
+                                <option value="40">40 horas</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <div>
+                        <fieldset>
+                            <legend>Género</legend>
+                            <label class="label_chek">
+                                <input type="radio" name="gender_" value="masculino" required>
+                                Masculino
+                            </label>
+                            <label class="label_chek" >
+                                <input type="radio" name="gender_" value="femenino">
+                                Femenino
+                            </label>
+                            <label class="label_chek">
+                                <input type="radio" name="gender_" value="otro">
+                                Otro
+                            </label>
+                            <label class="label_chek">
+                                <input type="radio" name="gender_" value="no_indicar">
+                                Prefiero no indicar
+                            </label>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Método de contacto</legend>
+                            <div>
+                                <label class="label_chek">
+                                    <input type="checkbox" name="preferencias" value="correo">
+                                    Correo
+                                </label>
+                            </div>
+                            <div>
+                                <label class="label_chek">
+                                    <input type="checkbox" name="preferencias" value="elular">
+                                    Celular</label>
+                            </div>
+                            <div>
+                                <label class="label_chek">
+                                    <input type="checkbox" name="preferencias" value="whatsApp">
+                                    WhatsApp</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="div_boton">
+                        <input class="boton_" type="submit" value="Enviar formulario">
+                        <input class="boton_" type="reset">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="box_logo">
+            <a href="index.html"><img class="logo_jelly_footer" src="assets/images/jelly_logo.svg" alt="Logo jelly Footer"></a>
+        </div>
+        <div class="box_footer">
+            <div class="recursos">
+                <p class="titulo_footer">Recursos</p>
+                <ul class="ul_footer">
+                    <li><a class="a_footer" href="#">Reseñas</a></li>
+                    <li><a class="a_footer" href="#">Comentarios</a></li>
+                    <li><a class="a_footer" href="#">Clientes felices</a></li>
+                    <li><a class="a_footer" href="#">Recomendaciones</a></li>
+                </ul>
+            </div>
+            <div class="colecciones">
+                <p class="titulo_footer">Colecciones</p>
+                <ul class="ul_footer">
+                    <li><a class="a_footer" href="#">BT21</a></li>
+                    <li><a class="a_footer" href="#">Photocards</a></li>
+                    <li><a class="a_footer" href="#">Álbum</a></li>
+                    <li><a class="a_footer" href="#">Merchandising</a></li>
+                </ul>
+            </div>
+            <div class="ayuda">
+                <p class="titulo_footer">Ayuda</p>
+                <ul class="ul_footer">
+                    <li><a class="a_footer" href="contacto.html">Contáctanos</a></li>
+                    <li><a class="a_footer" href="#">Preguntas frecuentes</a></li>
+                    <li><a class="a_footer" href="#">Crear/Acceder cuenta</a></li>
+                    <li><a class="a_footer" href="#">Garantía</a></li>
+                    <li><a class="a_footer" href="#">Políticas de privacidad</a></li>
+                </ul>
+            </div>
+            <div class="empresa">
+                <p class="titulo_footer">Empresa</p>
+                <ul class="ul_footer">
+                    <li><a class="a_footer" href="#">Quiénes somos</a></li>
+                    <li><a class="a_footer" href="#">Prensa</a></li>
+                    <li><a class="a_footer" href="#">Punto de venta</a></li>
+                </ul>
+            </div>
+            <div class="rrss_footer">
+                <ul class="ul_rrss_footer">
+                    <li class="li_rrss_footer"><a href="#" target="_blank"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a></li>
+                    <li class="li_rrss_footer"><a href="#" target="_blank"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a></li>
+                    <li class="li_rrss_footer"><a href="#" target="_blank"><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a></li>
+                    <li class="li_rrss_footer"><a href="#" target="_blank"><i class="fa-brands fa-youtube" style="color: #000000;"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="box_despedida">
+            <p class="mensaje_final">Hecho con <i class="fa-solid fa-heart" style="color: #ff0000;"></i> por Brayan Nicolas Quiroz Urrutia</p>
+        </div>
+    </footer>
+</body>
+</html>
